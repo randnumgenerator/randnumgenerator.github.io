@@ -28,13 +28,37 @@
     
         <article class="post_article">
 	<div class="post_title">
+		<a class="post_title_link text_underline" href="/2021/01/16/ecc/"><h1>椭圆曲线加密算法</h1></a>
+	</div>
+	<p class="post_date">01 16 2021</p>
+	<div class="post_content">
+		
+			<p>在之前的文章《<a href="/2021/01/03/rsa/" title="非对称加密与大数分解">非对称加密与大数分解</a>》介绍过RSA加密，它是基于数学上的整数分解问题而构造的一个加密算法。当然它也不是唯一一个基于数学难题的非对称加密算法。在那篇文章里，还提到过椭圆曲线问题。那么在这篇文章中，我们就来看一个基于椭圆曲线问题的加密算法吧。</p>
+<p>注：本文很大程度上参考了<a href="https://andrea.corbellini.name/2015/05/17/elliptic-curve-cryptography-a-gentle-introduction/" title="" target="_blank">”Elliptic Curve Cryptography: a gentle introduction“</a>系列文章，它的作者还编写了一个小工具，让读者能直观的了解椭圆曲线上的运算，非常推荐阅读。</p>
+<h3 id="椭圆曲线"><a href="#椭圆曲线" class="headerlink" title="椭圆曲线"></a>椭圆曲线</h3><p>椭圆曲线加密算法（Elliptic Curve Cryptography，简称ECC）是RSA之外另一个非对称加密算法。同样是基于数学问题，但椭圆曲线问题相比于整数分解问题却要复杂不少，不过它们也有相似之处。当然在了解椭圆曲线问题之前，我们需要先了解一下什么是椭圆曲线，以及椭圆曲线上面的运算。</p>
+<p><escape>
+			<a class="post_readmore" href="/2021/01/16/ecc/">read more</a>
+		
+    </div>
+	<div class="post_footer">
+		<!-- 
+	    
+			<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/cryptograph/" rel="tag">cryptograph</a></li></ul>
+		
+		-->
+	</div>
+</article>
+    
+        <article class="post_article">
+	<div class="post_title">
 		<a class="post_title_link text_underline" href="/2021/01/04/shor/"><h1>量子计算与秀尔算法</h1></a>
 	</div>
 	<p class="post_date">01 04 2021</p>
 	<div class="post_content">
 		
-			<p>前一篇文章简单的讲解了一下整数分解问题，以及非对称加密算法RSA，这一篇文章准备介绍一下量子计算对RSA加密的影响。对前一篇文章有兴趣的可以点击这个链接 <a href="/2021/01/03/rsa/" title="非对称加密与大数分解">非对称加密与大数分解</a></p>
-<p><escape>
+			<p>前一篇文章简单的讲解了一下整数分解问题，以及非对称加密算法RSA，这一篇文章准备介绍一下量子计算对RSA加密的影响。对前一篇文章有兴趣的可以点击这个链接 《<a href="/2021/01/03/rsa/" title="非对称加密与大数分解">非对称加密与大数分解</a>》</p>
+<h3 id="量子计算"><a href="#量子计算" class="headerlink" title="量子计算"></a>量子计算</h3><p>从计算机发明之初到现在，虽然其运算能力已经得到了翻天覆地的增长，但基本的计算机结构，并没有太大变化。信息以0和1的形式，记录在一个个比特位里面。当然除了记录数据，计算机也能进行运算，包括加减乘除，以及逻辑运算等。这些运算会修改比特位里记录的数据。最终，我们也可以读出修改后的数据，以取得计算的结果。</p>
+<p>而量子计算则与之不同。<escape>
 			<a class="post_readmore" href="/2021/01/04/shor/">read more</a>
 		
     </div>
